@@ -1,0 +1,82 @@
+/* homestyle.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: lightcyan;
+}
+
+#bigcontainer {
+  position: relative; /* Add this line */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 90vh;
+  margin: 10% auto;
+  background-color: #004792;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#smallcontainer {
+  width: 97%;
+  height: 97%;
+  margin: auto;
+  position: relative;
+  border: 2px solid #004792;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url('images/isticlogo.png');
+  background-repeat: no-repeat;
+  background-position: 1px 20px; /* Adjust the values as needed */
+}
+
+#designcontainer1 {
+  background-color: #004792;
+  border: 2px solid #004792;
+  border-bottom-left-radius: 180px;
+  width: 8%;
+  height: 40%;
+  position: absolute; /* Change from relative to absolute */
+  top: 0; /* Align to the top */
+  right: 0; /* Align to the right */
+}
+
+#designcontainer2 {
+  background-color: #004792;
+  border: 2px solid #004792;
+  border-top-right-radius: 180px;
+  width: 8%;
+  height: 40%;
+  position: absolute; /* Change from relative to absolute */
+  bottom: 0; /* Align to the bottom */
+  left: 0; /* Align to the left */
+}
+
+#content {
+  text-align: center;
+  padding: 20px;
+  color: #004792;
+}
+
+h1 h2,
+h3 {
+  color: #004792;
+}
+
+#logotext {
+  font-size: 4em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 1px;
+  left: 200px;
+}
+
+span {
+  color: gray;
+}
+#smalltitle {
+  text-align: center;
+}
