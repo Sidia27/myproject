@@ -79,4 +79,60 @@ span {
 }
 #smalltitle {
   text-align: center;
+  transform: translateY(120px);
 }
+#levelselection_container {
+  display: flex;
+  justify-content: center;
+  transform: translateY(150px); /* Adjust the translateY value as needed */
+}
+
+.levelselection {
+  margin: 0 20px; /* Adjust margin as needed */
+  display: inline-block;
+  padding: 100px 100px; /* Adjust padding as needed to make a big button */
+  text-decoration: none;
+  color: white;
+  background-color: #004792;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.levelselection a:hover {
+  background-color: #002966;
+}
+.levelselectiontext {
+  text-align: center;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.levelselectiontext h4 {
+  color: #004792;
+  font-size: 1.5em;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.levelselectiontext p {
+  color: #004792;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+.levelselectiontext h4 a {
+  color: white;
+}
+/* homestyle.css */
+
+/* Add this style for a text button */
+.levelselectiontext a {
+  text-decoration: none;
+  color: #004792;
+  transition: color 0.3s ease;
+}
+
+.levelselectiontext a:hover {
+  color: darkblue; /* Adjust the color for hover effect */
+}
+
+/* Other styles remain unchanged */
+
+/* ... */
