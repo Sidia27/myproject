@@ -136,3 +136,14 @@ span {
 /* Other styles remain unchanged */
 
 /* ... */
+@media screen and (min-width: 768px) {
+  #designcontainer1,
+  #designcontainer2 {
+    width: 8%;
+    height: 40%;
+  }
+  @media screen and (max-width: 767px) {
+    #designcontainer1,
+    #designcontainer2 {
+      display: none;
+    }
